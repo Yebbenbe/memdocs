@@ -63,7 +63,7 @@ Consider the following fields:
 
 - **Managed by** – This column identifies how the device is managed. Managed by options include:
 
-  - **MDM** - Intune manages these devices. Intune collects and reports the device's compliance data to the admin center.
+  - **InTune** - Intune manages these devices. Intune collects and reports the device's compliance data to the admin center.
 
   - **ConfigMgr** – These devices appear in the Microsoft Intune admin center when you use *tenant attach* to add the devices you manage with Configuration Manager. To be managed, the device must run the Configuration Manager client and be:
 
