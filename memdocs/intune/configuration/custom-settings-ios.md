@@ -35,16 +35,17 @@ ms.collection:
 >
 > For example, use the built-in [Wi-Fi profile](wi-fi-settings-configure.md) to deploy a Wi-Fi connection. Use the built-in [certificates profile](../protect/certificates-configure.md) for authentication.
 
-Using Microsoft Intune, you can add or create custom settings for your iOS/iPadOS devices using "custom profiles". Custom profiles are a feature in Intune. They're designed to add device settings and features that aren't built in to Intune.
+Using Microsoft Intune and a Macintosh, you can add or create custom settings for your iOS/iPadOS devices using "custom profiles". Custom profiles are a feature in Intune. They're designed to add device settings and features that aren't built in to Intune.
 
 This feature applies to:
 
 - iOS/iPadOS
+- users with MacOS or MacOS Server
 
 When using iOS/iPadOS devices, there are two ways to get custom settings into Intune:
 
-- [Apple Configurator](https://itunes.apple.com/app/apple-configurator-2/id1037126344?mt=12) (opens Apple's website)
-- [Apple Profile Manager](https://support.apple.com/profile-manager) (opens Apple's website)
+- [Apple Configurator](https://itunes.apple.com/app/apple-configurator-2/id1037126344?mt=12) (opens Apple's website - MacOS only)
+- [Apple Profile Manager](https://support.apple.com/profile-manager) (opens Apple's website - MacOS only)
 
 You can use these tools to export settings to a configuration profile. In Intune, you import this file, and then assign the profile to your iOS/iPadOS users and devices. Once assigned, the settings are distributed. They also create a baseline or standard for iOS/iPadOS in your organization.
 
